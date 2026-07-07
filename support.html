@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support · DoseSignal</title>
+<style>
+  :root { --accent: #3C769B; --text: #1C1C1E; --text2: #6E6E73;
+    --bg: #F2F2F7; --surface: #FFFFFF; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.55; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 24px 80px; }
+  header { margin-bottom: 32px; }
+  header a { color: var(--accent); text-decoration: none; font-size: 14px; }
+  h1 { font-size: 28px; margin: 8px 0 6px; }
+  h2 { font-size: 20px; margin: 28px 0 8px; color: var(--accent); }
+  h3 { font-size: 16px; margin: 20px 0 6px; }
+  p, li { font-size: 15px; margin-bottom: 10px; }
+  ul { padding-left: 22px; margin-bottom: 12px; }
+  .meta { color: var(--text2); font-size: 13px; }
+  .card { background: var(--surface); border-radius: 10px; padding: 18px 22px;
+    margin: 12px 0; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+  a { color: var(--accent); }
+  footer { margin-top: 40px; font-size: 12px; color: var(--text2);
+    border-top: 1px solid #ddd; padding-top: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <a href="./">← DoseSignal</a>
+    <h1>Support</h1>
+    <p class="meta">We usually reply within 2 business days.</p>
+  </header>
+
+  <div class="card">
+    <h3>Contact us</h3>
+    <p>General questions and bug reports:
+      <a href="mailto:support@dosesignal.app">support@dosesignal.app</a>
+    </p>
+    <p>Privacy or data requests:
+      <a href="mailto:privacy@dosesignal.app">privacy@dosesignal.app</a>
+    </p>
+    <p>When you email, please include your app version (Settings → About →
+      Version) and the device model so we can help faster.</p>
+  </div>
+
+  <h2>Frequently asked questions</h2>
+
+  <div class="card">
+    <h3>DoseSignal is not sending reminders.</h3>
+    <ul>
+      <li>Open iOS Settings → Notifications → DoseSignal and turn on
+        <strong>Allow Notifications</strong>, Sounds, Badges, and Lock
+        Screen / Notification Center / Banners.</li>
+      <li>Check that Focus / Do Not Disturb is not silencing DoseSignal.</li>
+      <li>Confirm your schedule is set for the current time zone
+        (Medication → the medication → Schedule).</li>
+      <li>If you are on Wi-Fi only and offline, some Care Partner alerts
+        will queue until you reconnect.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>My check-in photo will not match.</h3>
+    <ul>
+      <li>Make sure lighting is bright and even; avoid backlight.</li>
+      <li>Place the item inside the on-screen outline and hold still.</li>
+      <li>If the reference image was captured in different lighting, you
+        can re-register a fresh reference in Medication → the medication →
+        Reference photos.</li>
+      <li>You can still record a "basic check-in" without visual match if
+        you are on the Free plan or if verification is unavailable.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>How do I manage or cancel my subscription?</h3>
+    <p>
+      Open the Settings app → your name → Subscriptions → DoseSignal, or
+      tap <em>Manage Subscription</em> on the paywall inside DoseSignal.
+      Cancelling during the 14-day free trial means you will not be
+      charged.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>How do I delete my account and all my data?</h3>
+    <p>
+      In the app, go to Settings → <em>Delete account &amp; all data</em>.
+      This permanently deletes your account, medications, check-ins,
+      photos, and sharing history. It cannot be undone. If you cannot
+      access the app, email
+      <a href="mailto:privacy@dosesignal.app">privacy@dosesignal.app</a>
+      from the address on file and we will complete the deletion for you.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>How do I invite a Care Partner?</h3>
+    <p>
+      Settings → Manage Care Partners → Invite. Share the invite link with
+      the person you trust. They install DoseSignal (or sign in) and
+      accept. You control what they can see (schedule, alerts, history)
+      and you can revoke access at any time. Every sharing event is
+      recorded in your Sharing History.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Is DoseSignal a medical device?</h3>
+    <p>
+      No. DoseSignal is a consumer reminder and check-in tool. It does
+      not prove ingestion, diagnose anything, or replace medical care,
+      and it is not an emergency service. Always follow the guidance of
+      your doctor, pharmacist, or caregiver.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>How does the visual match work?</h3>
+    <p>
+      Visual matching runs on-device using Apple Vision and Core ML. It
+      compares your check-in photo to <em>your own</em> reference image.
+      It does not identify medications from a global database, and a
+      match is not proof that the medication was swallowed or is medically
+      correct.
+    </p>
+  </div>
+
+  <footer>
+    © 2026 DoseSignal · <a href="./privacy.html">Privacy Policy</a> ·
+    <a href="./terms.html">Terms of Use</a>
+  </footer>
+</main>
+</body>
+</html>
